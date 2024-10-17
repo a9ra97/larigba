@@ -1,0 +1,56 @@
+header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  z-index: 200;
+}
+.front-page{
+  background-color: rgb(134, 206, 134);
+  padding-bottom: 1500px;
+}
+.brand-picture{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border-radius: 35px;
+  top: 10px;
+  left: 20px;
+  object-fit: cover;
+}
+.right-section{
+  display: flex;
+  flex-direction: row;
+}
+.home-icon,.notifications-icon,.search-icon,.explore-icon{
+  width: 50px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.brand-name{
+  font-family: arial;
+  color: green;
+  font-weight: bold;
+  font-size: 50px;
+}
+.main-page{
+  position: absolute;
+  top: 200px;
+  left: 90px;
+}
+.pic-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ; 
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.pic-1{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px;
+}
